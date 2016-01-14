@@ -2,7 +2,7 @@ body {
   background:#82CAFF;
 font-family:arial;
 }
-h1, h2, h3 {color:#151B8D;
+h1, h2, h3 {color:#000A0;
 }
 p{padding:5px;
 }
