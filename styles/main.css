@@ -10,12 +10,16 @@ h1, h2, h3 {
 color:#151B8D;
 }
 h1 {font-family: serif;}
+h2 {text-align: center;}
+h3 {text-align: right;
+font-size: 10pt;}
+
 p {
 padding: 10px 300px 10px 300px}
 
 nav ul li {
   background: #CCffff;
-display: inline-block;
+  display: inline-block;
 list-style-type: none;
 margin: 5px;
 padding: 5px 15px;}
