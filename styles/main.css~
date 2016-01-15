@@ -1,8 +1,21 @@
 body {
-  background:#82CAFF;
-font-family:arial;
+font-family: arial;
+line-height: 1.5
 }
-h1, h2, h3 {color:#000A0;
+body {
+    background-image: url("https://40.media.tumblr.com/f96c1a6f0764a181bdfd1ce592c39e26/tumblr_n6uf102F6o1qlzkspo1_r1_400.jpg");
+    background-size: 100%}
+
+h1, h2, h3 {
+color:#151B8D;
 }
-p{padding:5px;
-}
+h1 {font-family: serif;}
+p {
+padding: 10px 300px 10px 300px}
+
+nav ul li {
+  background: ff33f;
+display: inline-block;
+list-style-type: none;
+margin: 5px;
+padding: 5px 15px;}
