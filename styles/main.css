@@ -2,9 +2,13 @@ body {
 font-family: arial;
 line-height: 1.5
 }
+@media only screen and (max-width: 300px) {p{
+    display: none;
+    }}
+
 body {
     background-image: url("https://40.media.tumblr.com/f96c1a6f0764a181bdfd1ce592c39e26/tumblr_n6uf102F6o1qlzkspo1_r1_400.jpg");
-    background-size: 100%}
+    background-size: 100%;}
 
 h1, h2, h3 {
 color:#151B8D;
@@ -14,8 +18,18 @@ h2 {text-align: center;}
 h3 {text-align: right;
 font-size: 10pt;}
 
-p {
-padding: 10px 300px 10px 300px}
+p1 {background-color: white;}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-6 {
+    width: 50%;
+}
 
 nav ul li {
   background: #CCffff;
