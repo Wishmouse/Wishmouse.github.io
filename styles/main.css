@@ -12,7 +12,9 @@
     font-size: 16pt;}
 .content {}
 .description {
-    color:black;}
+    color:black;
+    margin-left: 20pt;
+    max-width: 600pt;}
 
 .EQtitle{font-size: 18pt;
         background: white;
@@ -38,10 +40,9 @@
     }}
 
 .grid {
-    margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-}
+margin: auto;}
 
 .row {
     width: 100%;
@@ -135,7 +136,11 @@ h1 {font-family: serif;}
 h2 {text-align: center;}
 h3 {text-align: right;
 font-size: 10pt;}
-h4 {font-size: 18pt;margin-bottom: 5pt}
+h4 {font-size: 40pt;
+    margin-bottom: 5pt;
+    margin-top: 20pt;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: Tangerine;}
 
 
 .grid {
