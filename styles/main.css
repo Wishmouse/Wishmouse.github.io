@@ -5,13 +5,32 @@
     box-sizing: border-box;
 }
 .title {display: flex;}
-.header {color: black;
+.header {
+    color: black;
     max-width: 400px;
-font-style: Lato;
-font-size: 16pt;}
+    font-style: Lato;
+    font-size: 16pt;}
 .content {}
 .description {
-  color:black;}
+    color:black;}
+
+.EQtitle{font-size: 18pt;
+        background: white;
+        max-width: 400pt;
+                }
+.EQvideo{max-width: 400pt;}
+.EQheader{
+    font-family: serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color:#151B8D;
+        }
+.EQtext {font-family: Montserrat;
+        font-size: 14pt;
+        line-height:1.5;
+        max-width: 505pt;
+        padding: 10px 0px 40px 40px;}
+
 
 @media only screen and (max-width: 300px) {p{
     display: none;
@@ -98,7 +117,7 @@ body {
 
 p{
     font-size: 12pt;
-    font-family; arial;
+    font-family: arial;
     line-height: 1.5;
 }
 
@@ -131,11 +150,12 @@ h4 {font-size: 18pt;margin-bottom: 5pt}
 }
 
 nav ul li {
-  background: #CCffff;
+  background: #D8A7D6;
   display: inline-block;
 list-style-type: none;
 margin: 5px;
 padding: 5px 15px;
-border-color: 2px; black}
+border: solid 1px black;
+}
 
 
