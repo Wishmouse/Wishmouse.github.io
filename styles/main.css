@@ -6,7 +6,7 @@
 }
 .title{display: flex;}
 .header{
-    color: black;
+    color: #462E0C;
     max-width: 400px;
     font-style: Lato;
     font-size: 16pt;}
@@ -22,10 +22,10 @@
                 }
 .EQvideo{max-width: 400pt;}
 .EQheader{
-    font-family: serif;
+    font-family: Helvetica;
     font-size: 20pt;
     font-weight: bold;
-    color:#151B8D;
+    color:#462E0C;
     padding-top: 20pt;
         }
 .EQtext {font-family: Montserrat;
@@ -116,7 +116,7 @@ body {
 
 p{
     font-size: 12pt;
-    font-family: arial;
+    font-family: helvetica;
     line-height: 1.5;
 }
 
