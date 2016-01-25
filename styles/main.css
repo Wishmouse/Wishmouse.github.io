@@ -4,14 +4,14 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-.title {display: flex;}
-.header {
+.title{display: flex;}
+.header{
     color: black;
     max-width: 400px;
     font-style: Lato;
     font-size: 16pt;}
-.content {}
-.description {
+.content{}
+.description{
     color:black;
     margin-left: 20pt;
     max-width: 600pt;}
@@ -65,7 +65,6 @@ margin: auto;}
 .col-4 {
     width: 33.33%;
     margin-bottom: 15px;
-    border-bottom: 5px solid #B5E8D9;
     padding-bottom: 15px;
     padding-right: 30px;
     }
@@ -104,9 +103,7 @@ margin: auto;}
     width: 100%;
 margin-bottom: 15px;
 padding-top:15px;
-padding-bottom:15px;
-border-bottom: 5px solid #B5E8D9;
-border-top: 5px solid #B5E8D9;}
+padding-bottom:15px;}
 
 body {
 font-family: arial;
@@ -114,7 +111,7 @@ line-height: 1.5;
 font-size: 12pt;
 }
 body {
-    background-image: url("http://eskipaper.com/images/free-light-pink-wallpaper-1.jpg");
+    background-image: url("http://www.grdelin-buzet.hr/wp-content/uploads/2015/02/pale_pumpkin.jpg");
     background-size: 100%;}
 
 p{
@@ -129,10 +126,11 @@ p{
 
 
 
-h1, h2, h3, h4{
-color:#151B8D;
+h1, h2, h3{
+color: #462E0C;
+font-family: helvetica;
 }
-h1 {font-family: serif;}
+h1 {font-family: helvetica;}
 h2 {text-align: center;}
 h3 {text-align: right;
 font-size: 10pt;}
@@ -156,12 +154,11 @@ h4 {font-size: 40pt;
 }
 
 nav ul li {
-  background: #D8A7D6;
+  background: #FEA638;
   display: inline-block;
-list-style-type: none;
-margin: 5px;
-padding: 5px 15px;
-border: solid 1px black;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border-color: #462E0C;
 }
-
-
