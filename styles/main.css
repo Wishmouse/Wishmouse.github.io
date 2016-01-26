@@ -1,0 +1,23 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("http://touchechicago.com/wp-content/uploads/2013/10/light-bg-3.jpg");
+    background-size: 100%;}
+
+h1{text-align: center;
+background: #9FAC98;
+color: white;
+margin-bottom:0;}
+
+h3{text-align: center;
+background: #9FAC98;
+color: white;}
+
+
+
+
+
