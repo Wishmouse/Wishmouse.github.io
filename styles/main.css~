@@ -1,21 +1,39 @@
-body {
-font-family: arial;
-line-height: 1.5
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
-body {
-    background-image: url("https://40.media.tumblr.com/f96c1a6f0764a181bdfd1ce592c39e26/tumblr_n6uf102F6o1qlzkspo1_r1_400.jpg");
-    background-size: 100%}
 
-h1, h2, h3 {
-color:#151B8D;
-}
-h1 {font-family: serif;}
-p {
-padding: 10px 300px 10px 300px}
+body{line-height: 1.5em;
+    font-size: 18px;
+    background-image: url("http://touchechicago.com/wp-content/uploads/2013/10/light-bg-3.jpg");
+    background-size: 100%;}
 
-nav ul li {
-  background: ff33f;
-display: inline-block;
-list-style-type: none;
-margin: 5px;
-padding: 5px 15px;}
+h1{
+  font-size:2em;
+  text-align: center;
+  background: #9FAC98;
+  color: white;
+  margin: 10px;}
+
+h2{
+  font-size:1.7em;
+  text-align: center;
+  background: #9FAC98;
+  color: white;
+  margin:10px;}
+
+h3{text-align: center;
+  background: #9FAC98;
+  color: white;
+  margin-bottom:0 0 1em 0;}
+
+h4{font-family:Franklin Gothic Book; 
+ }
+
+p{margin: 0 0 .75 0;}
+
+
+ul{list-style-position: outside;
+  margin-left: 20px}
