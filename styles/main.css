@@ -28,7 +28,13 @@ h3{text-align: center;
     color: white;}
 
 h4{font-family:Franklin Gothic Book; 
+	background: #d5cbcf;
+	border-radius:15px;
+    padding-left:5px;
  }
+
+ul{list-style-postion: outside
+}
 
 nav a{
     margin-right: 5em;
