@@ -12,31 +12,18 @@ body{
     font-family: Raleway;
   }
 .background-header{background-color: #9FAC98;
+    margin-bottom:20px;
 }
+nav{display:inline-block;
+    color:white;
+    padding:0 20px 0 20px;
+    height:5px;
+    text-transform: uppercase;}
 
 .nav_wrapper a{text-decoration: none;
             color:white;
             padding:0 20px 0 20px;
-            display:inline-block;
-            bakcground-image:url(../images/background.jpg);
-            text-transform: uppercase;}
-
-
-nav
-    {display:inline-block;
-    color:white;
-    padding:0 20px 0 20px;
-    height:275px;
-    width:100%;
-    text-transform: uppercase;
-    background-image: url("../images/header-l.jpg");
-    }
-
-.nav_wrapper_index a{text-decoration: none;
-            color:white;
-            padding:0 20px 0 20px;
             display:inline-block;}
-
 
 h1{text-align: center;
     background: #9FAC98;
@@ -59,19 +46,17 @@ h4{font-family:Franklin Gothic Book;
     padding-left:5px;
  }
 
-ul{list-style-postion: outside;
-    background-color:rgba(255, 255, 255, 0.42); 
-
+ul{list-style-postion: outside
 }
-
-p{background-color: rgba(255, 255, 255, 0.42);}
-
+p{background-color:  rgba(255, 255, 255, 0.42);}
+ 
 
 nav a:hover{
-    background-color: #d5cbcf;
-    color: #9FAC98;
+    background-color: #a598ac;
+    color: white;
     font-weight:bold;
     border-radius: 30em;
     text-decoration: none;
   }
+
   

@@ -1,0 +1,67 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("http://touchechicago.com/wp-content/uploads/2013/10/light-bg-3.jpg");
+    background-size: 100%;
+    line-height: 1.5em;
+    font-size: 18px;
+    font-family: Raleway;
+  }
+
+h1{text-align: center;
+    background: #9FAC98;
+    color: white;
+    margin-bottom:0;}
+
+h2{text-align: center;
+  background: #9FAC98;
+  color: white;
+  margin-bottom: 0;}
+
+
+h3{text-align: center;
+    background: #9FAC98;
+    color: white;}
+
+h4{font-family:Franklin Gothic Book; 
+	background: #d5cbcf;
+	border-radius:15px;
+    padding-left:5px;
+ }
+
+ul{list-style-postion: outside
+}
+p{background-color:  rgba(255, 255, 255, 0.42);}
+}
+ 
+nav a{
+    margin-right: 5em;
+    background:transparent;
+    text-transform: uppercase;
+    display:inline-block;
+    font-weight: bold;
+    font-size: .9em;
+	color:white;
+    border:black;
+    border-bottom-right-radius: 30em;
+    border-bottom-left-radius: 30em; 
+    text-decoration: none;
+    padding:24px;
+  }
+
+
+nav a:hover{
+    background-color: #a598ac;
+    color: white;
+    font-weight:bold;
+    border-bottom-right-radius: 30em;
+    border-bottom-left-radius: 30em; 
+    text-decoration: none;
+  }
+.background-header{background-color: #9FAC98;
+}
+  
