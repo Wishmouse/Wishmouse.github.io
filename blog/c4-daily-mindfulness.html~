@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>First week of coding</title>
+  <title>Being Mindful</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -25,7 +25,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="styles/index.jpg" type="image/png" href="../images/index.jpg">
+  <link rel="styles/index.jpg" type="image/png" href="images/index.jpg">
 
 </head>
 <body>
@@ -35,7 +35,7 @@
   <!DOCTYPE html>
 <html>
 <head>
-   <title>Reflection</title>
+   <title>Being Mindful </title>
 </head>
 <body>
 <div class="container">
@@ -48,7 +48,7 @@
       </div>      
     <div class="twelve columns">
       <h1>A coding journey</h1>
-      <h3>First week of coding...</h3>
+      <h3>Just be mindful</h3>
       </div>
     </div>
   </div>
@@ -56,14 +56,21 @@
   <div class="container">
     <div class = "row">
       <div class="twelve columns">
-        <h4>It all depends on how you look at it.</h4>
+        <h4>A experiment in Mindful Converastion</h4>
+	<div class = "row">
+      	<div class="twelve columns">
+            <p>Initially it was quite awkward and we were both very self aware.  It took a while to get into the swing of it, in the early stages there were a few pauses but once we became more comfortable with attention giving / receiving it became easier.  What I realised about myself, is I use humour to mask insecurity, while my conversation buddy asked lots of questions.  It was interesting to be heard.</p>
+      </div>
+ </div>
+
       <div class = "row">
-        <div class="six columns">
-            <p>Am into my first week of coding and feeling a bit overwhelmed, which is totally expected, who wouldn't be. Inbetween those moments of feeling confused are those where I have acheivements.  Learning isn't about knowing everyting off the bat, learning is all about making mistakes,  being creative and sticking your neck out.  <em>If you are passionate you will succeed. </em>.  And that's the Dev Academy experience.</p>
+      <h4>Techniques to keep me on track</h4>
+      <div class="twelve columns">
+            <p>Just take one breath a day.  My morning routine is full of mindful activity, adding one Mindful Breath to the mix just seems like the right thing to do.</p>
       </div>
-      <div class="six columns">
-            <p>Its about being passionate and having a good dose of hunger that makes you want to work harder.  Not because you have to but because you are <em>inspired</em> to.  My concern is will I ifit in, will I keep up with my class and will I be able to add value .  All those little ego driven concerns. The simple answer: of course I will.  My learning style is based around experince, its where I acheive the most.  Sure, remote learning makes me nervous, but its a new experience. </p>
-      </div>
+        <div class="twelve columns">
+          <center><img src="../images/reflection.jpg" alt="Reflection" style="max-width:100%"></center>
+        </div>
       </div>
     </div>
   </div>
