@@ -1,0 +1,87 @@
+document.getElementById("demo").innerHTML = 5 + 6;
+
+//Event Listener start game
+document.getElementById("startBtn").addEventListener("click", startFunction);
+$(document).ready(function()
+        $("#letsPlay").click(function(){
+        $("input").keyup();
+    })
+
+//cick to play
+function sayHello (play) {
+alert("Lets play!");
+}
+
+// Reset the table to empty
+document.querySelector(".racer_table").innerHTML = "";
+
+// Setting the length of track
+function setTrackLength() {
+trackLength = document.trackLength.value;{
+for(i=1; i<=setTrackLength;i++){
+  $("#playerOne_strip").append("<td>");
+  $("#playerTwo_strip").append("<td>");
+  $("#playerThree_strip").append("<td>");
+  $("#playerFour_strip").append("<td>");
+}
+}               
+// Create a row with a marker square for each player
+var table = document.querySelector(".racer_table");
+                       
+
+var playerOne = 
+    {
+  position:0,
+  keyCode:80, // P
+  selector: document.querySelector ("playerOne_strip")
+    };
+
+var playerTwo =
+    {
+  position:0,
+  keyCode:81, // Q
+  selector: document.querySelector ("playerTwo_strip")
+    };
+var playerThree =
+    {
+  position:0, 
+  keyCode:70,  // F
+  selector: document.querySelector ("playerThree_strip")
+    };
+var playerFour =
+    {
+  position:0, 
+  keyCode:74, // J
+  selector: document.querySelector ("playerFour_strip")
+    };
+
+ //event listener - key press.
+
+ 
+
+//moving players class=active
+
+ actionPlayer = function (player){
+   var activeCell = $("#" + player + "td.active");
+   var moveCell = activeCell.next();
+   
+   activeCell.removeClass("active");
+   moveCell.addClass ("active");
+   };
+// moving var playerOne
+
+function movePlayer(event) {
+if (event.keyCode === playerOne){
+  if(.playerOne<trackLength;);{
+    actionPlayer('playerOne_strip');
+    playerOneMove++;
+  }
+}
+  
+  
+ //TESTING - 
+  $(document).ready(function(){
+    $("keyCode").keyUp(function(){
+        $("active").append("td");
+    });
+});
