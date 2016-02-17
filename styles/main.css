@@ -60,7 +60,8 @@ h4{font-family:Franklin Gothic Book;
  }
 
 ul{list-style-postion: outside;
-    background-color:rgba(255, 255, 255, 0.42); 
+    background-color:rgba(255, 255, 255, 0.42);
+    margin-left: 50px 
 
 }
 
